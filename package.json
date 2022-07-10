@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:css": "postcss assets/main.css -o assets/main_browser.css"
   },
   "dependencies": {
     "deepmerge": "^4.2.2",
@@ -17,9 +18,13 @@
   "devDependencies": {
     "@types/node": "^18.0.3",
     "@types/react": "^18.0.15",
+    "autoprefixer": "^10.4.7",
     "eslint": "8.19.0",
     "eslint-config-next": "12.2.0",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^10.0.0",
     "prettier": "^2.7.1",
+    "tailwindcss": "^3.1.5",
     "typescript": "^4.7.4"
   }
 }
