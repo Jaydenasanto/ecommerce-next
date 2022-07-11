@@ -1,7 +1,7 @@
-@tailwind base;
+@import "./base.css";
 @tailwind components;
 @tailwind utilities;
 
-.layout {
-  background-color: greenyellow;
+.fit {
+  min-height: calc(100vh - 88px);
 }
